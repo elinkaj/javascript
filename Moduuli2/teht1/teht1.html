@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tehtävä 1</title>
+</head>
+<body>
+
+    <h2>Käänteinen järjestys</h2>
+
+    <script>
+        'use strict';
+
+        let luvut = [];
+
+
+        for (let i = 0; i < 5; i++) {
+            let luku = +prompt("Anna kokonaisluku: ");
+            luvut.push(luku);
+        }
+
+
+        for (let index = luvut.length - 1; index >= 0; index--)  {
+            document.write( luvut[index] + "<br>");
+        }
+
+    </script>
+
+</body>
+</html>
